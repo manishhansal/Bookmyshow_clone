@@ -11,9 +11,9 @@ const navigate = useNavigate();
     React.useEffect(()=>{
         getData()
     },[])
-
+//.
     const getData =()=>{
-        fetch(`http://localhost:3004/posts`)
+      fetch(`https://datajsonaaaasd.herokuapp.com/posts`)
         .then((res)=>res.json())
         .then((res)=>{
             // console.log(res)
